@@ -1,0 +1,37 @@
+<header>
+    <nav class="navbar navbar-expand-md navbar-light bg-primary">
+        <div class="container-fluid">
+
+            <a href="https://github.com/JulesEmond" class="navbar-brand"> <i class="fas fa-ticket-alt text-light fa-2x px-2"></i></a>
+            
+            <button class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav"><span class="navbar-toggler-icon"></span></button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="nav">
+                <ul class="navbar-nav align-self-end" id="nav">
+                    <li class="nav-item dropdown d-none">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <span class="navbar-toggler-icon"></span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a [routerLink]="['/accueil-client']" class="nav-link font-weight-bold text-capitalize text-light px-3">Accueil</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a [routerLink]="['/reserver']" class="nav-link font-weight-bold text-capitalize text-light px-3">Réserver</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a [routerLink]="['/mes-reservations']" class="nav-link font-weight-bold text-capitalize text-light px-3">Vos réservations</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a [routerLink]="['/login']" class="nav-link font-weight-bold text-capitalize text-light px-3">Déconexion</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
